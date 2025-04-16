@@ -266,5 +266,3 @@ export const Sorteo: React.FC = () => {
     </div>
   );
 };
-
-export default Sorteo;
