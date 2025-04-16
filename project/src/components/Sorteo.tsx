@@ -7,7 +7,7 @@ interface Statistics {
   };
 }
 
-const Sorteo: React.FC = () => {
+export const Sorteo: React.FC = () => {
   const [participants, setParticipants] = useState<string[]>(() => {
     const saved = localStorage.getItem('participants');
     return saved ? JSON.parse(saved) : ['Mercau', 'Ludueña', 'Fernández', 'Basanta'];
