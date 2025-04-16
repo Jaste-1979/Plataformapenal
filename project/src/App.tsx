@@ -11,7 +11,7 @@ function App() {
     {
       id: 'prescription',
       title: 'Sorteo',
-      description: 'Calcula plazos de prescripción en casos penales',
+      description: 'Sorteo de expedientes',  
       icon: Scale,
     },
     {
