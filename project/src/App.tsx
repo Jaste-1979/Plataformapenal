@@ -9,7 +9,7 @@ function App() {
 
   const tools = [
     {
-      id: 'prescription',
+      id: 'sorteo',
       title: 'Sorteo',
       description: 'Sorteo de expedientes',  
       icon: Scale,
@@ -42,8 +42,8 @@ function App() {
 
   const renderTool = () => {
     switch (selectedTool) {
-      case 'prescription':
-        return <PrescriptionCalculator />;
+      case 'sorteo':
+        return <sorteo />;
       case 'timeline':
         return <ProcessTimeline />;
       default:
