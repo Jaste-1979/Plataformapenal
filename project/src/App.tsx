@@ -3,6 +3,7 @@ import { Scale, Calculator, BookOpen, Gavel, FileText } from 'lucide-react';
 import { ToolCard } from './components/ToolCard';
 import { PrescriptionCalculator } from './components/PrescriptionCalculator';
 import { ProcessTimeline } from './components/ProcessTimeline';
+import { sorteo } from './components/sorteo';
 
 function App() {
   const [selectedTool, setSelectedTool] = useState<string | null>(null);
