@@ -7,7 +7,7 @@ interface Statistics {
   };
 }
 
-const RaffleSystem: React.FC = () => {
+const Sorteo: React.FC = () => {
   const [participants, setParticipants] = useState<string[]>(() => {
     const saved = localStorage.getItem('participants');
     return saved ? JSON.parse(saved) : ['Mercau', 'Ludueña', 'Fernández', 'Basanta'];
@@ -267,4 +267,4 @@ const RaffleSystem: React.FC = () => {
   );
 };
 
-export default RaffleSystem;
+export default Sorteo;
